@@ -1,0 +1,198 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#NavBar{
+    height: 100vh;
+    width: 12vw;
+    padding: 20px;
+    border-right: 1px solid rgb(30, 30, 30);
+    background-color: rgb(8,8,8);
+    z-index: 10 !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Logo{
+    background: transparent;
+    width: auto;
+    height: 60px;
+    font-size: 50px;
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: rgb(218, 218, 218);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#Logo:hover{
+    color: white;
+}
+
+#NavItems{
+    background: transparent;
+    position: relative;
+    top: 20%;
+}
+
+.NavItem{
+    background: transparent;
+    height: 35px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: smaller;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+svg{
+    width: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+.NavItem:hover{
+    color: white;
+}
+
+.NavItem:hover svg{
+    fill: white;
+}
+
+#BottomNav{
+    position: relative;
+    top: 50%;
+    background: transparent;
+}
+
+#Title{
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 62%;
+    transform: translate(-50%,-50%);
+    font-family: 'Caveat', cursive;
+    width: 50vw;
+    font-size: 200px;
+    white-space: nowrap;
+}
+
+#Home{
+    background: rgb(15, 15,15);
+    border: 1px solid rgb(42, 42, 42);
+    border-radius: 15px;
+    color: white;
+}
+
+a{
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+#IconsToContact{
+    height: 35px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    border-radius: 12px;
+    border: 1px solid rgb(42, 42, 42);
+    transition: fill 0.5s ease;
+}
+
+#IconsToContact svg:hover{
+    fill: white;
+}
+
+#name{
+    position: relative;
+    left: 10%;
+    background: transparent;
+    display: inline-block;
+}
+
+#NameText{
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+#NameTextSub{
+    color: grey;
+    background: transparent;
+}
+
+#me{
+    width: 50px;
+    display: inline;
+    border-radius: 10px;
+    position: relative;
+    left: 2%;
+}
+
+#Info{
+    background: transparent;
+    cursor: pointer;
+}
+
+#Info:hover #NameText{
+    text-decoration: underline;
+}
+
+#subtitleContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+.subtitle{
+    font-size: 20px;
+    color: gray;
+}
+
+#buttonmain{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translateX(-50%);
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+    border: 2px solid white;
+}
+
+#buttonmain:hover{
+    background-color: white;
+    color: black;
+    font-size: 17px;
+}
